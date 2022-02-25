@@ -109,7 +109,7 @@
         }
 
         function displayList() {
-            let len = currentWordList.length > 10 ? 10 : currentWordList.length
+            let len = currentWordList.length > 20 ? 20 : currentWordList.length
             const arr = currentWordList.slice(0,len)
             let tbod = document.getElementById("results");
             tbod.innerHTML = "";
